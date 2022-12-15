@@ -9,7 +9,7 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 def pytest_addoption(parser):
     parser.addoption("--browser", default="chrome")
     parser.addoption("--driver_folder", default=os.path.expanduser("~/Downloads/drivers"))
-    parser.addoption("--url", action="store", default="http://192.168.0.101:8081")
+    parser.addoption("--url", action="store", default="http://192.168.0.102:8081")
     parser.addoption("--status_code", default="200", type=int)
 
 
