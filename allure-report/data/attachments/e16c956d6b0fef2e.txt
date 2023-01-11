@@ -1,0 +1,6 @@
+INFO     page_objects.BasePage:BasePage.py:70 Opening url: http://192.168.0.102:8081
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', 'button.btn.btn-link.dropdown-toggle') is present
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="7597c7ed5b7db415ef57a00151c375b4", element="7f34e8f4-cdf7-432e-ad49-f02b19ccab50")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', '#top .btn-group .dropdown-menu') is present
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('name', 'EUR') is present
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="7597c7ed5b7db415ef57a00151c375b4", element="a1fd4661-9df2-4f48-92a8-59e671484de5")>

@@ -1,0 +1,6 @@
+INFO     page_objects.BasePage:BasePage.py:70 Opening url: http://192.168.0.102:8081/index.php?route=account/register
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('id', 'account') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '#input-firstname') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '#input-password') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', "input[type='radio'][value='1']") is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', "input[type='submit'][value='Continue']") is find

@@ -1,0 +1,6 @@
+INFO     page_objects.BasePage:BasePage.py:70 Opening url: http://192.168.0.102:8081
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '#wishlist-total') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('id', 'logo') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('link text', 'MacBook') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('class name', 'swiper-pagination.carousel0.swiper-pagination-clickable.swiper-pagination-bullets') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('link text', 'About Us') is find

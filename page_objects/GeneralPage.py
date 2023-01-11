@@ -20,9 +20,7 @@ class GeneralPage(BasePage):
     CURRENCY_VALUE = (By.CSS_SELECTOR, "#form-currency strong")
 
     def check_elements_on_general_page(self):
-        """
-        Метод проверки видимости элементов на главной странице
-        """
+        """ Метод проверки видимости элементов на главной странице """
         self._find_element(GeneralPage.WISHLIST)
         self._find_element(GeneralPage.LOGO)
         self._find_element(GeneralPage.MACBOOK)
@@ -30,15 +28,11 @@ class GeneralPage(BasePage):
         self._find_element(GeneralPage.ABOUT_US)
 
     def get_currency(self):
-        """
-        Метод получения текущей выбранной валюты
-        """
+        """ Метод получения текущей выбранной валюты """
         return self.element(self.CURRENCY_VALUE)
 
     def currency_switching(self, name):
-        """
-        Метод переключения валют из верхнего меню опенкарта
-        """
+        """ Метод переключения валют из верхнего меню опенкарта """
         self.click(self.element(self.CURRENCY_BTN))
         self.element(self.CURRENCY_DROPDOWN)
         if name == "EUR":
