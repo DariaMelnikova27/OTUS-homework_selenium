@@ -1,0 +1,24 @@
+INFO     page_objects.BasePage:BasePage.py:70 Opening url: http://192.168.0.102:8081/index.php?route=account/register
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', '#input-firstname') is present
+INFO     page_objects.BasePage:BasePage.py:39 Input Ivan in input <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="978dbf15-898e-439d-9376-e902aab68551")>
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="978dbf15-898e-439d-9376-e902aab68551")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', '#input-lastname') is present
+INFO     page_objects.BasePage:BasePage.py:39 Input Petrov in input <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="7a288517-adce-44b5-ba55-854abe481bc7")>
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="7a288517-adce-44b5-ba55-854abe481bc7")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', '#input-email') is present
+INFO     page_objects.BasePage:BasePage.py:39 Input 123@ya.ru in input <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="2a74e8c8-5a22-4c8f-86af-7ecddb0dfbe3")>
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="2a74e8c8-5a22-4c8f-86af-7ecddb0dfbe3")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', '#input-telephone') is present
+INFO     page_objects.BasePage:BasePage.py:39 Input 12345678 in input <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="fd772d8c-26e5-427e-b95b-209dfea66159")>
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="fd772d8c-26e5-427e-b95b-209dfea66159")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', '#input-password') is present
+INFO     page_objects.BasePage:BasePage.py:39 Input Qwe12345 in input <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="6ca2f89a-8bcd-425f-a485-f22332837203")>
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="6ca2f89a-8bcd-425f-a485-f22332837203")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', '#input-confirm') is present
+INFO     page_objects.BasePage:BasePage.py:39 Input Qwe12345 in input <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="eb1343f5-2322-4725-b673-2e88e6770935")>
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="eb1343f5-2322-4725-b673-2e88e6770935")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('name', 'agree') is present
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="e36163d6-84fe-46a2-8ef7-f43643654918")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', "input[type='submit'][value='Continue']") is present
+INFO     page_objects.BasePage:BasePage.py:34 Clicking element: <selenium.webdriver.remote.webelement.WebElement (session="93379eb8d6c423713d4ca21eca6aeb10", element="efe3a051-a717-405d-ba6c-040141e72f6f")>
+INFO     page_objects.BasePage:BasePage.py:46 Check if element ('css selector', '#content > h1') is present

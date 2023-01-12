@@ -14,9 +14,7 @@ class CatalogPage(BasePage):
     BANNER = (By.CSS_SELECTOR, ".swiper-wrapper")
 
     def check_elements_on_catalog_page(self):
-        """
-        Метод проверки видимости элементов на странице каталога
-        """
+        """ Метод проверки видимости элементов на странице каталога """
         self._find_element(CatalogPage.GRID_VIEW_BUTTON)
         self._find_element(CatalogPage.LIST_VIEW_BUTTON)
         self._find_element(CatalogPage.MENU)

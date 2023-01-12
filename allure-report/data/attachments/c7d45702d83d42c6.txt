@@ -1,0 +1,6 @@
+INFO     page_objects.BasePage:BasePage.py:70 Opening url: http://192.168.0.102:8081/admin
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('id', 'footer') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('partial link text', 'Forgotten') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('name', 'username') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '#input-password') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', "button[type='submit']") is find

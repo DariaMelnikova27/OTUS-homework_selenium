@@ -1,3 +1,4 @@
+import allure
 from selenium.webdriver.common.by import By
 
 from page_objects.BasePage import BasePage
@@ -25,91 +26,67 @@ class AdminPage(BasePage):
     ALERT = (By.CSS_SELECTOR, "div.alert.alert-dismissible")
 
     def check_elements_on_admin_page(self):
-        """
-        Метод проверки видимости элементов на странице администратора
-        """
+        """ Метод проверки видимости элементов на странице администратора """
         self._find_element(AdminPage.FOOTER)
         self._find_element(AdminPage.FORGOTTEN_PASSWORD)
         self._find_element(AdminPage.INPUT_USERNAME)
         self._find_element(AdminPage.INPUT_PASSWORD)
         self._find_element(AdminPage.SUBMIT_BUTTON)
 
+    @allure.step("Заполняю поле Username значением {username}")
     def user_fill(self, username):
-        """
-        Метод заполнения поля Username
-        """
         self._input(self.element(self.INPUT_USERNAME), username)
         return self
 
+    @allure.step("Заполняю поле Password значением {password}")
     def password_fill(self, password):
-        """
-        Метод заполнения поля Password
-        """
         self._input(self.element(self.INPUT_PASSWORD), password)
         return self
 
+    @allure.step("Нажимаю кнопку Login")
     def login_button_click(self):
-        """
-        Метод нажатия кнопки Login
-        """
         self.click(self.element(self.SUBMIT_BUTTON))
         return self
 
+    @allure.step("Авторизуюсь на странице администратора")
     def admin_page_login(self):
-        """
-        Метод авторизации на странице администратора
-        """
         self.user_fill("user")
         self.password_fill("bitnami")
         self.login_button_click()
 
+    @allure.step("Открываю раздел добавления нового товара")
     def open_add_product_section(self):
-        """
-        Метод открытия раздела добавления нового товара
-        """
         self.click(self.element(self.CATALOG))
         self.click(self.element(self.PRODUCT))
         return self
 
+    @allure.step("Заполняю поле Product Name значением {product_name}")
     def product_name_fill(self, product_name):
-        """
-        Метод заполнения поля Product Name
-        """
         self._input(self.element(self.PRODUCT_NAME), product_name)
         return self
 
+    @allure.step("Заполняю поле Meta Tag Title значением {meta_tag_title}")
     def meta_tag_title_fill(self, meta_tag_title):
-        """
-        Метод заполнения поля Meta Tag Title
-        """
         self._input(self.element(self.META_TAG_TITLE), meta_tag_title)
         return self
 
+    @allure.step("Открываю вкладку Data")
     def open_data_section(self):
-        """
-        Метод открытия вкладки Data
-        """
         self.click(self.element(self.DATA))
         return self
 
+    @allure.step("Заполняю поле Model значением {model}")
     def model_fill(self, model):
-        """
-        Метод заполнения поля Model
-        """
         self._input(self.element(self.MODEL), model)
         return self
 
+    @allure.step("Проверяю отображения алерта после добавления/удаления товара")
     def check_alert(self):
-        """
-        Метод проверки отображения алерта после добавления/удаления товара
-        """
         text = self.element(self.ALERT).text.strip().replace("\n×", "")
         assert text == "Success: You have modified products!"
 
+    @allure.step("Добавляю новый товар")
     def add_new_product(self):
-        """
-        Метод добавления нового товара
-        """
         self.click(self.element(self.ADD_NEW))
         self.product_name_fill("TestProduct")
         self.meta_tag_title_fill("123")
@@ -119,10 +96,8 @@ class AdminPage(BasePage):
         self.check_alert()
         return self
 
+    @allure.step("Удаляю товар")
     def delete_product(self):
-        """
-        Метод удаления товара
-        """
         self.driver.find_elements(*self.CHECKBOX)[1].click()
         self.click(self.element(self.DELETE))
         self.driver.switch_to.alert.accept()

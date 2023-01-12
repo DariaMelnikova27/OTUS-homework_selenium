@@ -14,9 +14,7 @@ class ProductCardPage(BasePage):
     TWEET = (By.CLASS_NAME, "twitter-share-button")
 
     def check_elements_on_product_card_page(self):
-        """
-        Метод проверки видимости элементов на странице карточки товара
-        """
+        """ Метод проверки видимости элементов на странице карточки товара """
         self._find_element(ProductCardPage.NAVBAR)
         self._find_element(ProductCardPage.DESCRIPTION)
         self._find_element(ProductCardPage.ADD_TO_CART)
