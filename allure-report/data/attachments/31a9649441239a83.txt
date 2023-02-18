@@ -1,0 +1,6 @@
+INFO     page_objects.BasePage:BasePage.py:70 Opening url: http://192.168.0.102:8081/index.php?route=product/category&path=20
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('id', 'grid-view') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('id', 'list-view') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '.list-group') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '#input-sort') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '.swiper-wrapper') is find

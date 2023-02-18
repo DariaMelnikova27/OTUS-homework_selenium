@@ -1,0 +1,6 @@
+INFO     page_objects.BasePage:BasePage.py:70 Opening url: http://192.168.0.102:8081/tablet/samsung-galaxy-tab-10-1
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('class name', 'navbar') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('link text', 'Description') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '#product #button-cart') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('css selector', '#tab-review') is find
+INFO     page_objects.BasePage:BasePage.py:58 Check if element ('class name', 'twitter-share-button') is find
