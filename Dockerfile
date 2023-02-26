@@ -9,6 +9,5 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-ENTRYPOINT ["pytest", "--executor", "192.168.0.102"]
+ENTRYPOINT ["pytest"]
 
-CMD ["--browser", "chrome"]
